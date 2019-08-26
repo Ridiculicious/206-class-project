@@ -1,0 +1,233 @@
+@font-face
+{
+    font-family: 'Wisdom Script';
+
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+html
+{
+    font-size: 16px;
+}
+body
+{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: black;
+}
+h1
+{
+    font-size: 1.875em;
+}
+h2
+{
+    font-size: 24px;
+}
+h3
+{
+    font-size: 18px;
+}
+h4
+{
+    font-size: 12px;
+}
+
+p
+{
+    font-size: 14px;
+    line-height: 21px;
+
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header
+{
+    height: 110px;
+    margin: 0 auto;
+
+    border-bottom: 3px solid #77a466;
+}
+
+header h1
+{
+    float: left;
+
+    margin: 0;
+    padding: 38px 0;
+}
+header h1 span
+{
+    color: #77a466;
+}
+
+header nav
+{
+    float: right;
+
+    padding: 46px 0;
+}
+header nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li
+{
+    font-size: 14px;
+    font-weight: 700;
+
+    display: inline;
+
+    padding: 0 10px;
+
+    text-transform: uppercase;
+}
+header nav ul li a
+{
+    text-decoration: none;
+
+    color: #77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section
+{
+    clear: both;
+
+    margin: 0 auto;
+}
+
+.main-image
+{
+    float: left;
+
+    height: auto;
+}
+.main-image img
+{
+    width: 100%;
+
+    border-bottom: 3px solid #77a466;
+}
+
+.main-title
+{
+    float: left;
+
+    height: auto;
+}
+.main-title h3
+{
+    padding: 5px 0;
+
+    text-align: left;
+
+    color: #77a466;
+}
+.main-title p
+{
+    font-size: 16px;
+    line-height: 25px;
+
+    padding: 0;
+}
+
+.section-one,
+.section-two,
+.section-three
+{
+    float: left;
+
+    width: 33%;
+    height: auto;
+
+    border-top: 1px solid #eee;
+}
+
+.section-one h4
+{
+    padding: 10px 0;
+}
+
+.section-two
+{
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.section-two h4,
+.section-three h4
+{
+    padding: 10px 30px;
+}
+
+.menu
+{
+    padding: 0;
+
+    list-style: none;
+}
+.menu li
+{
+    padding: 10px 0;
+
+    color: #77a466;
+}
+
+.reviews
+{
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #333;
+}
+
+.address
+{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer
+{
+    clear: both;
+
+    height: 50px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    border-top: 3px solid #eee;
+}
+footer span
+{
+    font-family: 'Wisdom Script', cursive;
+    font-size: 14px;
+
+    text-transform: lowercase;
+
+    color: #77a466;
+}
